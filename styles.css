@@ -40,24 +40,6 @@ span {
     color: var(--cyan-1);
 }
 
-button {
-    background-color: var(--bright-yellow);
-    border: none;
-    border-radius: 6px;
-    width: 100%;
-    height: 3.5em;
-    box-shadow: 0 5px 15px rgba(106, 112, 121, 0.5);
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    font-size: 1.1em;
-    font-weight: 700;
-    letter-spacing: 1px;
-}
-
 .container {
     display: flex;
     align-items: center;
@@ -121,6 +103,20 @@ a {
 .box-middle p:last-of-type {
     color: var(--cyan-3);
     padding: .5em 0 1.9em;
+}
+
+.button {
+    background-color: var(--bright-yellow);
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(106, 112, 121, 0.5);
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: .8em;
 }
 
 
